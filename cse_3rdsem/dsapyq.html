@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DSA Module wise Pyq</title>
+
+  <!-- MathJax Config MUST come before script -->
+  <script>
+  window.MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$', '$$'], ['\\[', '\\]']],
+      packages: ['base', 'ams'] 
+    },
+    svg: {
+      fontCache: 'global'
+    }
+  };
+  </script>
+  <link rel="icon" type="image/png" href="/preview.png">
+    <link rel="apple-touch-icon" href="/preview.png">
+  <link rel="stylesheet" href="pagestyle.css">
+  <!-- Load MathJax -->
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
+
+</head>
+<body><h1>Data Structures and Algorithms Module wise Pyq</h1>
+    
+<h2>Module 1</h2>
+<p>1.(a) Arrange the following in increasing asymptotic order:<br>\(A: n^{1/3}\)<br>\(B: e^n\)<br>\(C: n^{7/4}\)<br>\(D: n\log^9 n\)<br>\(E: 1.0000001^n\)<br>(i) ADCEB<br>(ii) DACEB<br>(iii) ACDEB<br>(iv) ACDBE <span style="color:red">mark 1 ASTU 2025</span></p>
+<p>1.(b) Analyze the time complexity of the given algorithm:<br>for(int i=n/2; i&lt;=n; i++)<br>for(int j=1; j&lt;=n/2; j++)<br>for(int k=1; k&lt;=n; k = k*2)<br>print(&quot;ln&quot;); <span style="color:red">mark 4 ASTU 2025</span></p>
+<p>1.(c) Compare the following functions and arrange them in decreasing order of the growth of functions: \(2^n, n^3, n\log n, n^2\log n\). <span style="color:red">mark 4 ASTU 2025</span></p>
+<p>1.(d) \(\underline{\hspace{1cm}}\) is not an example of comparison - based sorting algorithm. <span style="color:red">mark 1 ASTU 2024</span></p>
+<p>1.(e) The worst case time complexity of a quick sort algorithm on n elements is \(\underline{\hspace{1cm}}\). <span style="color:red">mark 1 ASTU 2024</span></p>
+<p>2.(a) Explain the concept of asymptotic notations with example. <span style="color:yellow">mark 6 ASTU 2024</span></p>
+<p>3.(a) What do you mean by efficiency of an algorithm? How can you compare the efficiency of 2 algorithms? <span style="color:yellow">mark 4 ASTU 2018</span></p>
+
+
+
+<h2>Module 2</h2>
+<p>1.(a) Which of the following is an application of a stack?<br>(i) Job scheduling<br>(ii) Breadth-First Search (BFS)<br>(iii) Function call management (recursion)<br>(iv) Resource allocation in operating systems <span style="color:red">mark 1 ASTU 2025</span></p>
+<p>1.(b) In the worst case, the number of comparisons needed to search a singly linked list of length n for a given element is<br>(i) \(\log_2 n\)<br>(ii) \(n/2\)<br>(iii) \(\log_2 n - 1\)<br>(iv) \(n\) <span style="color:red">mark 1 ASTU 2025</span></p>
+<p>1.(c) An Abstract Data Type (ADT) is:<br>(i) Same as an abstract class.<br>(ii) A data type that cannot be instantiated.<br>(iii) A data type for which only the operations defined on it can be used, but none else.<br>(iv) All of the above. <span style="color:red">mark 1 ASTU 2025</span></p>
+<p>1.(d) Convert the following infix expression into a postfix expression using a stack:<br>\(A*(B+D)/E-F*(G+H/K)\) <span style="color:red">mark 6 ASTU 2025</span></p>
+<p>1.(e) Write a program to implement a queue using a singly Linked list. <span style="color:red">mark 6 ASTU 2025</span></p>
+<p>1.(f) Write a program to convert a decimal number into its octal equivalent using a stack. <span style="color:red">mark 4 ASTU 2025</span></p>
+<p>2.(a) \(\underline{\hspace{1.5cm}}\) is the data structure used for implementing recursion. <span style="color:yellow">mark 1 ASTU 2024</span></p>
+<p>2.(b) Stack underflow occurs when an attempt is made to \(\underline{\hspace{1.5cm}}\). <span style="color:yellow">mark 1 ASTU 2024</span></p>
+<p>2.(c) The time complexity to read the first item in a singly linked linear list of n items is \(\underline{\hspace{1.5cm}}\). <span style="color:yellow">mark 1 ASTU 2024</span></p>
+<p>2.(d) The value of prefix notation: \(+^*23^*45\) is \(\underline{\hspace{1.5cm}}\). <span style="color:yellow">mark 1 ASTU 2024</span></p>
+<p>2.(e) State the algorithm for implementing a queue using array. <span style="color:yellow">mark 6 ASTU 2024</span></p>
+<p>2.(f) Show a circular queue. <span style="color:yellow">mark 3 ASTU 2024</span></p>
+<p>2.(g) Write algorithms to insert an element into the end of a doubly linked list and to display the elements of the list. Also, write the algorithm to delete the first element from the doubly linked list. <span style="color:yellow">mark 9 ASTU 2024</span></p>
+<p>2.(h) Convert the following infix expression into prefix and postfix expressions:<br>\(2+4+6*10-20\) <span style="color:yellow">mark 6 ASTU 2024</span></p>
+<p>2.(i) Compare the merits and demerits of: Array and Linked list. <span style="color:yellow">mark 3 ASTU 2024</span></p>
+<p>2.(j) Compare the merits and demerits of: Singly linked list and doubly linked list. <span style="color:yellow">mark 2 ASTU 2024</span></p>
+<p>3.(a) The following postfix expression with single digit operands is evaluated using a stack: \(823\uparrow/23^*+51^*-\)<br>Here, \(\uparrow\) is exponentiation operator. The top two elements of the stack after the first \(\uparrow\) is evaluated are:<br>(i) 6 and 1<br>(ii) 5 and 7<br>(iii) 3 and 2<br>(iv) 1 and 5 <span style="color:red">mark 1 ASTU 2023</span></p>
+<p>3.(b) Stack is useful in implementing:<br>(i) Breadth first search<br>(ii) Recursion<br>(iii) Mergesort<br>(iv) Threaded binary tree <span style="color:red">mark 1 ASTU 2023</span></p>
+<p>3.(c) The minimum number of stacks required to implement a queue is:<br>(i) 1<br>(ii) 2<br>(iii) 3<br>(iv) 4 <span style="color:red">mark 1 ASTU 2023</span></p>
+<p>3.(d) Define a queue data structure. Write an algorithm to insert an element into a circular queue implemented using an array. <span style="color:red">mark 7 ASTU 2023</span></p>
+<p>3.(e) A doubly linked circular list is already created in memory. Write an algorithm to insert a new element into this list after a given element. Your algorithm will take two inputs: the first is the element after which insertion has to take place and the second is the new element that is to be inserted. Compute best and worst case time complexity of your algorithm and express it in big O notation. <span style="color:red">mark 8 ASTU 2023</span></p>
+<p>3.(f) Two singly linked circular lists are already created in memory. Write an algorithm to concatenate the two lists into a single circular linked list. Find the worst case time complexity of your algorithm and express it in big O notation. <span style="color:red">mark 6 ASTU 2023</span></p>
+<p>4.(a) Compare Linked lists with arrays. <span style="color:yellow">mark 4 ASTU 2018</span></p>
+<p>4.(b) What is a priority queue? How is it different from a normal queue? <span style="color:yellow">mark 4 ASTU 2018</span></p>
+<p>4.(c) Write algorithms for the following: To display the elements of a dequeue. <span style="color:yellow">mark 4 ASTU 2018</span></p>
+<p>4.(d) Write algorithms for the following: To count the no.of nodes in a linked list. <span style="color:yellow">mark 4 ASTU 2018</span></p>
+<p>4.(e) Write a program to implement a circular queue using an array. <span style="color:yellow">mark 10 ASTU 2018</span></p>
+<p>4.(f) Write a program to reverse a string using a stack. <span style="color:yellow">mark 10 ASTU 2018</span></p>
+<p>4.(g) Write the pre-order expression for the following using a stack<br>\([a+(b-c)]*[(d-e)/(f+g-h)]\) <span style="color:yellow">mark 8 ASTU 2018</span></p>
+<p>4.(h) Write a function to insert an element in a circular queue. <span style="color:yellow">mark 4 ASTU 2018</span></p>
+<p>4.(i) Write a function to pop an element from a stack. <span style="color:yellow">mark 4 ASTU 2018</span></p>
+<p>4.(j) Write a function to delete an element from the end in a doubly linked list. <span style="color:yellow">mark 4 ASTU 2018</span></p>
+<p>4.(k) Write the functions to insert an element in an output restricted dequeue. <span style="color:yellow">mark 8 ASTU 2018</span></p>
+<p>4. (l) Use Prim's/ Kruskal algorithm to find the minimum spanning tree of the graph. <span style="color:yellow"> mark 5 ASTU 2018</span><br>
+<a href="https://i.ibb.co/GfWNT8tD/Screenshot-2026-09-30-221812.webp">
+  <img src="https://i.ibb.co/GfWNT8tD/Screenshot-2026-09-30-221812.webp" alt="Figure" width="300">
+</a></p>
+
+
+
+<h2>Module 3</h2>
+<p>1.(a) Which of the following sorting algorithms is considered stable?<br>(i) Quick Sort<br>(ii) Heap Sort<br>(iii) Bubble Sort<br>(iv) Selection Sort <span style="color:red">mark 1 ASTU 2025</span></p>
+<p>1.(b) The average case occurs in the Linear Search Algorithm when:<br>(i) The item to be searched is in some where middle of the array.<br>(ii) The item to be searched is not in the array.<br>(iii) The item to be searched is in the last of the array.<br>(iv) The item to be searched is either in the last or not in the array. <span style="color:red">mark 1 ASTU 2025</span></p>
+<p>1.(c) Differentiate between linear search and binary search. <span style="color:red">mark 2 ASTU 2025</span></p>
+<p>1.(d) Write the quick sort algorithm/program by taking the \(1^{\text{st}}\) element of the array as pivot. <span style="color:red">mark 5 ASTU 2025</span></p>
+<p>1.(e) Implement the above algorithm on the following array to sort it in ascending order:<br>27, 10, 36, 18, 25, 45 <span style="color:red">mark 5 ASTU 2025</span></p>
+<p>1.(f) Analyze the time complexity of the insertion sort algorithm. <span style="color:red">mark 4 ASTU 2025</span></p>
+<p>1.(g) Find the no.of passes, comparisons and exchanges needed in a selection sorting algorithm for the best, average and worst case. <span style="color:red">mark 8 ASTU 2025</span></p>
+<p>2.(a) Best case time complexity of binary search on n elements is \(\underline{\hspace{1.5cm}}\). <span style="color:yellow">mark 1 ASTU 2024</span></p>
+<p>2.(b) What is the worst case time complexity of binary search in an array? Apply binary search to search '8' in the following sequence of numbers stored in an array:<br>8 14 22 28 31 35 40<br>Write the sequence after every step. No need to write an algorithm. <span style="color:yellow">mark 6 ASTU 2024</span></p>
+<p>2.(c) Apply quick sort and selection sort on the following array of integers:<br>10 15 5 14 3 6 4 18 40 30 20 19<br>Write the intermediate array after every step. No need to write algorithm. <span style="color:yellow">mark 12 ASTU 2024</span></p>
+<p>2.(d) Explain how the standard bubble sort algorithm can be modified to perform better in certain cases. <span style="color:yellow">mark 3 ASTU 2024</span></p>
+<p>3.(a) The worst case time complexity of sorting 'n' numbers using quicksort is:<br>(i) \(\Theta(n)\)<br>(ii) \(\Theta(n \log n)\)<br>(iii) \(\Theta(n^2)\)<br>(iv) \(\Theta(n!)\) <span style="color:red">mark 1 ASTU 2023</span></p>
+<p>3.(b) Which of the following algorithms need minimum number of swaps?<br>(i) Quicksort<br>(ii) Selection sort<br>(iii) Insertion sort<br>(iv) Heap sort <span style="color:red">mark 1 ASTU 2023</span></p>
+<p>3.(c) The following numbers are stored in an array:<br>23 98 47 61 50 88 11 3 35<br>In this array, the element '98' is searched for using binary search algorithm. Trace the working of the algorithm by listing the values of 'low', 'high' and 'mid' after each pass of the algorithm. Perform necessary preprocessing on the array elements before applying binary search. <span style="color:red">mark 8 ASTU 2023</span></p>
+<p>3.(d) Consider the numbers stored in the following array:<br>98 47 4 50 88 2 37<br>Assume that you applied quicksort algorithm on this list of numbers with the last element as the pivot. Show the working of the first pass of the algorithm showing the intermediate contents of the array, final position of the pivot and the sub lists created. <span style="color:red">mark 5 ASTU 2023</span></p>
+<p>3.(e) Explain the terms stable sorting algorithm and in-place sorting algorithm. Give one example of each. <span style="color:red">mark 4 ASTU 2023</span></p>
+<p>4.(a) What are the different search techniques? What is the complexity of the most efficient technique? <span style="color:red">mark 4 ASTU 2018</span></p>
+<p>4.(b) Sort (increasing order showing all the steps) the following using merge sort and quick sort.<br>8, 2, 4, 6, 9, 7, 10, 1, 5, 3 <span style="color:red">mark 12 ASTU 2018</span></p>
+
+
+
+
+<h2>Module 4</h2>
+<p>1.(a) What is a spanning tree of a graph?<br>(i) A subgraph that includes only leaf nodes.<br>(ii) A subset of edges that forms a cycle.<br>(iii) A tree where all nodes are leaves.<br>(iv) A subgraph that includes all vertices and is connected without any cycles. <span style="color:red">mark 1 ASTU 2025</span></p>
+<p>1.(b) Which of the following data structure is useful in traversing a given graph by breadth first search?<br>(i) Stack<br>(ii) List<br>(iii) Queue<br>(iv) None of the above. <span style="color:red">mark 1 ASTU 2025</span></p>
+<p>1.(c) Show with an example how insertion of a node and edge occurs in a graph using adjacency matrix. <span style="color:red">mark 6 ASTU 2025</span></p>
+<p>1.(d) Construct the binary tree, T based on the given tree traversals:<br>pre-order: F A E K C D H G B<br>in-order: E A C K F H D B G <span style="color:red">mark 6 ASTU 2025</span></p>
+<p>2.(a) Explain the differences between graph and tree with a suitable example. <span style="color:red">mark 3 ASTU 2024</span></p>
+<p>2.(b) Explain how to represent a graph data structure using linked representation with an example. <span style="color:red">mark 6 ASTU 2024</span></p>
+<p>3.(a) In representation of a binary tree using array, if an element in a node is stored at index 'n', then the right child of this node will be stored at [assume that root is stored at index 1]:<br>(i) \(n/2\)<br>(ii) \(2n\)<br>(iii) \(2n+1\)<br>(iv) \(2n+2\) <span style="color:red">mark 1 ASTU 2023</span></p>
+<p>3.(b) The time needed to find the inorder successor of a node in a fully threaded binary tree is:<br>(i) \(O(n \log n)\)<br>(ii) \(O(\log n)\)<br>(iii) \(O(n)\)<br>(iv) \(O(1)\) <span style="color:red">mark 1 ASTU 2023</span></p>
+<p>3.(c) Consider the following graph: <br><a href="https://i.ibb.co/35w3bmKq/Screenshot-2026-10-24-195947.webp">
+  <img src="https://i.ibb.co/35w3bmKq/Screenshot-2026-10-24-195947.webp" alt="Figure" width="300"></a><br>Represent this graph using adjacency matrix and linked adjacency list. <span style="color:red">mark 5 ASTU 2023</span></p>
+<p>3.(d) Consider the graph given in question 3.(c) above. In what sequence will the nodes be visited if this graph is traversed using breadth first search and using depth first search. You need to illustrate the traversal processes by showing the contents of relevant data structures during the working of the respective algorithms. <span style="color:red">mark 6 ASTU 2023</span></p>
+<p>4.(a) What is a graph? What are the different ways of representing a graph? <span style="color:red">mark 4 ASTU 2018</span></p>
+<p>4.(b) Using the following traversals, construct the corresponding binary tree (show all steps).<br>In-order : H K D B I L E F C M J G<br>Pre-order : A B D H K E I L C F G J M <span style="color:red">mark 5 ASTU 2018</span></p>
+
+
+
+
+<h2>Module 5</h2>
+<p>1.(a) Create an AVL tree from the given set of values:<br>H, I, J, B, A, E, C, F, D, G, K, L <span style="color:red">mark 6 ASTU 2025</span></p>
+<p>2.(a) In the worst case, the height of a binary search tree of n elements is \(\underline{\hspace{1.5cm}}\). <span style="color:red">mark 1 ASTU 2024</span></p>
+<p>2.(b) The \(\underline{\hspace{1.5cm}}\) traversal of a binary search tree produces items in increasing order. <span style="color:red">mark 1 ASTU 2024</span></p>
+<p>2.(c) In a binary search tree, the value stored in \(\underline{\hspace{1.5cm}}\) child of a node is greater than or equal to the value stored in the node. <span style="color:red">mark 1 ASTU 2024</span></p>
+<p>2.(d) Construct the following trees if the elements are inserted one after the other in the given sequence. Write the tree after every step. No need to write algorithm:<br>10 15 5 14 3 6 4 18 40 30 20 19<br>(i) Binary Search Tree<br>(ii) AVL Tree <span style="color:red">mark 9 ASTU 2024</span></p>
+<p>2.(e) Draw the modified trees after deletion of '5' from the above binary search tree and the AVL tree. <span style="color:red">mark 6 ASTU 2024</span></p>
+<p>3.(a) A binary search tree contains the values 3, 6, 10, 22, 25, 30, 60, 75. The tree is traversed in preorder and the values are printed out. Which of the following sequence is a valid output?<br>(i) 25 6 3 10 22 60 30 75<br>(ii) 25 6 10 3 22 75 30 60<br>(iii) 25 6 75 60 30 3 10 22<br>(iv) 75 30 60 22 10 3 6 25 <span style="color:red">mark 1 ASTU 2023</span></p>
+<p>3.(b) In the worst case the time needed to search an element in a binary search tree is:<br>(i) \(O(n)\)<br>(ii) \(O(\log n)\)<br>(iii) \(O(n \log n)\)<br>(iv) \(O(n^2)\) <span style="color:red">mark 1 ASTU 2023</span></p>
+<p>3.(c) Which of the following is not height balanced?<br>(i) AVL tree<br>(ii) Red black tree<br>(iii) Binary search tree<br>(iv) B tree <span style="color:red">mark 1 ASTU 2023</span></p>
+<p>3.(d) Construct a binary search tree by inserting the following elements one by one in the order given:<br>20, 11, 37, 80, 90, 70, 60, 65<br>Redraw the tree after deleting the element '20'. <span style="color:red">mark 5 ASTU 2023</span></p>
+<p>3.(e) The following numbers are inserted into an AVL tree one by one in the order given:<br>50, 60, 10, 8, 15, 32, 46, 23, 78<br>Draw the tree after each insertion. <span style="color:red">mark 5 ASTU 2023</span></p>
+<p>3.(f) Insert the following numbers into a B-tree of order 3 and draw the tree after each insertion:<br>1, 2, 3, 4, 23, 12, 6, 7, 31, 8 <span style="color:red">mark 6 ASTU 2023</span></p>
+<p>4.(a) Write algorithms for the following: To count the total no.of nodes in a BST. <span style="color:red">mark 4 ASTU 2018</span></p>
+
+
+
+
+
+<h2>Module 6</h2>
+<p>1.(a) Which of the following sequences of array elements forms a Min-Heap?<br>(i) {1, 6, 5, 7, 10, 12, 13, 14, 17, 23}<br>(ii) {1, 5, 6, 10, 7, 12, 13, 14, 17, 23}<br>(iii) {1, 5, 6, 7, 10, 12, 13, 14, 17, 23}<br>(iv) {1, 5, 6, 7, 12, 10, 13, 14, 17, 23} <span style="color:red">mark 1 ASTU 2025</span></p>
+<p>1.(b) What are the ways to implement a priority queue?<br>(i) Array<br>(ii) Linked List<br>(iii) Heap<br>(iv) All of the above <span style="color:red">mark 1 ASTU 2025</span></p>
+<p>1.(c) What is a priority queue? Show an example of a priority queue using Linked list. Also perform an insertion operation on it. <span style="color:red">mark 6 ASTU 2025</span></p>
+<p>1.(d) Illustrate the operation of Heap sort on the given array:<br>5, 13, 2, 25, 7, 17, 20, 8, 4<br>Sort the elements in ascending order. <span style="color:red">mark 6 ASTU 2025</span></p>
+<p>2.(a) What is a priority queue? Explain how a priority queue can be Implemented. <span style="color:red">mark 5 ASTU 2024</span></p>
+<p>3.(a) Consider the following heap: <br><a href="https://i.ibb.co/N6K9L4ww/Screenshot-2026-10-24-202551.webp">
+  <img src="https://i.ibb.co/N6K9L4ww/Screenshot-2026-10-24-202551.webp" alt="Figure" width="300"></a><br>If the element '16' is deleted from this heap, then heapify the tree again in order to maintain the heap property. <span style="color:red">mark 4 ASTU 2023</span></p>
+<p>3.(b) What is a priority queue? Explain how you would implement a priority queue using a heap. <span style="color:red">mark 4 ASTU 2023</span></p>
+<p>4.(a) What is the difference between a BST and a heap? For the given sequence of numbers, construct a heap and a BST.<br>34, 23, 67, 45, 12, 54, 87, 43, 98, 75, 84, 93, 31 <span style="color:red">mark 10 ASTU 2018</span></p>
+
+
+
+
+<h2>Module 7</h2>
+<p>1.(a) Consider a hash table with size = 10 and insert the keys 42, 62, 36, 16, 91, 33, 27, 18. Remove collisions using quadratic probing (\(c_1 = 2\) and \(c_2 = 3\)). <span style="color:red">mark 6 ASTU 2025</span></p>
+<p>2.(a) What is hashing? Explain some of the collision resolution techniques in hashing. <span style="color:red">mark 6 ASTU 2024</span></p>
+<p>3.(a) You need to store the following numbers in a hash table of size 10 where bucket addresses range from 0 to 9: 23, 60, 70, 31, 54, 73, 83, 50. The hash function is: 'element mod size_of_hash_table'. Draw the contents of the hash table after inserting these elements one by one in the order given. Collision is resolved using linear probing. <span style="color:red">mark 5 ASTU 2023</span></p>
+<p>4.(a) What is hashing and rehashing? Give its applications. Discuss the advantages and disadvantages of hashing. <span style="color:red">mark 10 ASTU 2018</span></p>
+<p>4.(b) How do you resolve hash clashes by open addressing method? Explain. <span style="color:red">mark 10 ASTU 2018</span></p>
+
+
+
+
+<h2>Anonymous Module </h2>
+<p>1. (a) The time needed to find the inorder successor of a node in a fully threaded binary tree is:<br>(a) $O(n\log n)$<br>(b) $O(\log n)$<br>(c) $O(n)$<br>(d) $O(1)$ <span style="color:red"> mark 1 ASTU 2023</span></p>
+
+<p>1. (b) Explain the terms 'stable sorting algorithm and in-place sorting algorithm. Give one example of each. <span style="color:red"> mark 4 ASTU 2023</span></p>
+
+<p>2. (a) Write algorithms for the following:<br>To display the elements of a dequeue. <span style="color:red"> mark 5 ASTU 2018</span></p>
+
+<p>2. (b) Write the functions to insert an element in an output restricted dequeue. <span style="color:red"> mark 4+4=8 ASTU 2018</span></p>
+
+<p>2. (c) Use Prim's/ Kruskal algorithm to find the minimum spanning tree of the graph. <span style="color:red"> mark 5 ASTU 2018</span><br>
+<a href="https://i.ibb.co/GfWNT8tD/Screenshot-2026-09-30-221812.webp">
+  <img src="https://i.ibb.co/GfWNT8tD/Screenshot-2026-09-30-221812.webp" alt="Figure" width="300">
+</a></p>
+<nav class="bottom-nav">
+
+    <a href="/" class="bottom-nav-item active">
+        <span class="nav-icon">⌂</span>
+        <span>Home</span>
+    </a>
+
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSedUsQrVbQSeFWNbfARpo1dpVXqSl_Z7SNLRG7q0t6ADYStZA/viewform" class="bottom-nav-item">
+        <span class="nav-icon">⚑</span>
+        <span>Report</span>
+    </a>
+
+</nav>
+<footer class="footer">
+            © 2026 StudyXohai | Rahul Ahmed | <a href="https://studyxohai.netlify.app/" target="_blank" rel="noopener">Home</a>
+            <div class="social-links">
+            <a href="https://www.instagram.com/studyxohai/" target="_blank" rel="noopener">
+                StudyXohai
+            </a></div>
+        </footer>
+</body></html>
+
