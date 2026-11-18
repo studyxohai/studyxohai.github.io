@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://studyxohai.netlify.app/3rdSem/pagestyle.css">
+    
+    <title>Document</title>
+</head>
+<body>
+    <h1>Object Oriented Programming</h1>
+    <h2>Module 2</h2>
+    <p>1. (a) The core OOP concept that combines data and the methods that operate on that data into a single unit, i.e. hiding the internal implementation from the outside world, is known as:<br>(i) Polymorphism.<br>(ii) Inheritance.<br>(iii) Abstraction.<br>(iv) Encapsulation. <span style="color:red">mark 1 ASTU 2025</span></p>
+
+<p>1. (b) The main benefit of data encapsulation in OOP is to promote:<br>(i) Multiple inheritance.<br>(ii) Modularity and data security.<br>(iii) Dynamic memory allocation.<br>(iv) Runtime polymorphism. <span style="color:red">mark 1 ASTU 2025</span></p>
+
+<p>1. (c) In C++, which of the following code segments correctly demonstrates data encapsulation by restricting direct access to the <code>balance</code> variable?<br>(i) <code>class Account { public: int balance; };</code><br>(ii) <code>class Account { protected: int balance; };</code><br>(iii) <code>class Account { private: int balance; public: void getBalance(); };</code><br>(iv) <code>class Account { private: public: int balance; };</code> <span style="color:red">mark 1 ASTU 2025</span></p>
+
+<p>1. (d) What is a constructor? Is it mandatory to use a constructor? List some of the special properties of the constructor functions. Can we have more than one constructor in a class? If yes, explain the need of such a situation. <span style="color:red">mark 7 ASTU 2025</span></p>
+
+<p>1. (e) What do you mean by a static data member of a class? Explain the characteristics of static data members. <span style="color:red">mark 6 ASTU 2025</span></p>
+
+<p>1. (f) How is code reuse achieved through the mechanism of inheritance? <span style="color:red">mark 4 ASTU 2025</span></p>
+
+<p>2. (a) A class may have:<br>(1) one constructor and one destructor<br>(2) one destructor and many constructors<br>(a) Only (1) is correct<br>(b) Only (2) is correct<br>(c) Both (1) and (2) are correct<br>(d) Both (1) and (2) are incorrect <span style="color:red">mark 1 ASTU 2024</span></p>
+
+<p>2. (b) Private data member can be accessed by:<br>(a) public and private member of a class<br>(b) only public methods<br>(c) only private method<br>(d) cannot be accessed <span style="color:red">mark 1 ASTU 2024</span></p>
+
+<p>2. (c) Observe the code segment:<br><code>void Sick::show() {<br>Pick::show();<br>/* statements of show method in Sick class */<br>}</code><br>Here <code>show()</code> method of class "Pick" is called as __________. <span style="color:red">mark 1 ASTU 2024</span></p>
+
+<p>2. (d) Statement <code>this-&gt;x = 0</code> is similar to __________. <span style="color:red">mark 1 ASTU 2024</span></p>
+
+<p>2. (e) Which of the following is not correct for constructor?<br>(1) It invokes automatically.<br>(2) May be declared in private section.<br>(3) Constructor can be overloaded.<br>(a) Only (1) is correct<br>(b) (1) and (2) are correct<br>(c) (2) and (3) are correct<br>(d) (1) and (3) are correct <span style="color:red">mark 1 ASTU 2024</span></p>
+
+<p>2. (f) Differentiate Class and Object. Design a class to calculate the marks of three subjects of a student. The class must have the following data members and methods: <code>rollNo</code>, <code>Name</code>, <code>sub1</code>, <code>sub2</code>, <code>sub3</code>, <code>read()</code>, <code>calculate()</code> and <code>show()</code>. <span style="color:red">mark 10 ASTU 2024</span> :contentReference[oaicite:0]{index=0}</p>
+
+<p>2. (g) Write a brief note on Code reusability. <span style="color:red">mark 5 ASTU 2024</span> :contentReference[oaicite:1]{index=1}</p>
+
+<p>3. (a) Which of the following is not a feature of OOP?<br>(a) Data abstraction<br>(b) Message passing<br>(c) Extensibility<br>(d) Non modularity <span style="color:red">mark 1 ASTU 2023</span></p>
+
+<p>3. (b) The given code segment states, which of the following statement is valid?<br><code>Shape S1;<br>Shape S2("ASTU_2023");</code><br>(a) S1 is default constructor and S2 is copy constructor<br>(b) S1 is default constructor and S2 is string constructor<br>(c) S2 is parameterized constructor and S1 is default constructor<br>(d) S2 is parameterized constructor and S1 is explicit constructor <span style="color:red">mark 1 ASTU 2023</span></p>
+
+<p>3. (c) Which of the following is not true for constructor?<br>(a) same name as class<br>(b) doesn't have any return type<br>(c) used to allocate resource to dynamic data<br>(d) constructor is used to be virtual <span style="color:red">mark 1 ASTU 2023</span></p>
+
+<p>3. (d) If A is a class with an integer data <code>y</code> and <code>aa</code> is an object of it, observe the statement and answer.<br><code>static A aa;</code> will result:<br>(a) <code>y = 0</code><br>(b) <code>y = garbage value</code><br>(c) class will be initialized<br>(d) <code>y</code> will increment automatically <span style="color:red">mark 1 ASTU 2023</span></p>
+
+<p>3. (e) Create a class Student with a string data member name, with integer data member roll number, and marks of three subject: subject1, subject2, subject3 as float. Add a member function to read these data, another member function to compute the marks of three subjects and then find the average and the third method to display all these information. Create object to test the class. <span style="color:red">mark 7 ASTU 2023</span></p>
+
+<p>3. (f) Design a C++ program to accomplish the following. There will be two constructors, one will display the message “Constructor is invoked”, the other will read a value and there must be a definition of destructor with message “Destructor is invoked”. Inside the main function there must be a message “In the main”. Output must be in the following sequence.<br>Constructor is invoked<br>In the main<br>Value is = 10 (any user define value)<br>Destructor is invoked <span style="color:red">mark 8 ASTU 2023</span></p>
+
+<p>4. (a) Which of the following is an abstract data type?<br>(a) Class<br>(b) Int<br>(c) String<br>(d) Double <span style="color:red">mark 1 ASTU 2021</span></p>
+
+<p>4. (b) What is default access specifier for data members or member functions declared within a class without any specifier, in C++?<br>(a) Private<br>(b) Protected<br>(c) Public<br>(d) Depends on Compiler <span style="color:red">mark 1 ASTU 2021</span></p>
+
+<p>4. (c) Destructor has the same name as the constructor and it is preceded by?<br>(a) !<br>(b) ?<br>(c) ~<br>(d) $ <span style="color:red">mark 1 ASTU 2021</span></p>
+
+<p>4. (d) Which of the following is true?<br>(a) All objects of a class share all data members of class<br>(b) Objects of a class do not share non-static members. Every object has its own copy.<br>(c) Objects of a class do not share codes of non-static.<br>(d) None of these <span style="color:red">mark 1 ASTU 2021</span></p>
+
+<p>4. (e) Define a class named ‘Bank Account’ to represent following members:<br>Data members: Account Number, Name of Depositor, Account Type, Balance Amount.<br>Member functions: Initialize members, Deposit Amount, Withdraw Amount, Display Balance.<br>Write a C++ program to test the Bank Account class for 5 customers. <span style="color:red">mark 8 ASTU 2021</span></p>
+
+<p>4. (f) Write a short note on Access specifiers. <span style="color:red">mark 3 ASTU 2021</span></p>
+
+<p>5. (a) In which access specifier should a constructor be defined, so that object of the class can be created in any function?<br>(a) Public<br>(b) Protected<br>(c) Private<br>(d) Any access specifier will work <span style="color:red">mark 1 ASTU 2019</span></p>
+
+<p>5. (b) The <code>this</code> pointer is accessible:<br>(a) Within all the member functions of the class<br>(b) Only within functions returning void<br>(c) Only within non-static functions<br>(d) Within the member functions with zero arguments <span style="color:red">mark 1 ASTU 2019</span></p>
+
+<p>5. (c) Can a class be declared/defined inside another class in C++?<br>(a) Yes<br>(b) No <span style="color:red">mark 1 ASTU 2019</span></p>
+
+<p>5. (d) If a class contains static variable, then every object of the class:<br>(a) has its own copy of static variable<br>(b) shares the same instance of static variable <span style="color:red">mark 1 ASTU 2019</span></p>
+
+<p>5. (e) Default value of static variable is ______.<br>(a) 0<br>(b) 1<br>(c) Garbage value<br>(d) Compiler dependent <span style="color:red">mark 1 ASTU 2019</span></p>
+
+<p>5. (f) Explain the difference between private and protected member in class with a suitable example. <span style="color:red">mark 6 ASTU 2019</span></p>
+
+<p>5. (g) Create a class “complex” with constructor overloading to create complex number objects. Write methods in complex class to add two complex number using a friend function and another method to subtract two complex number without using friend function. <span style="color:red">mark 9 ASTU 2019</span></p>
+<h2>Module 3</h2>
+<p>1. (a) To implement late binding pointer and ______ keyword is used. <span style="color:red">mark 1 ASTU 2024</span></p>
+
+<p>1. (b) If A is the base class and B is the derived class then ______ is ______. <span style="color:red">mark 1 ASTU 2024</span></p>
+
+<p>1. (c) Class with a pure virtual function is known as ______. <span style="color:red">mark 1 ASTU 2024</span></p>
+
+<p>1. (d) What do you mean by polymorphism? Create a C++ program to overload '+' and ______ operators. <span style="color:red">mark 10 ASTU 2024</span></p>
+
+<p>1. (e) Differentiate between: Static binding and dynamic binding. <span style="color:red">mark 4 ASTU 2024</span></p>
+
+<p>1. (f) Create a class "A" to read 10 numbers of "float" data, then find the average of it. Allocate memory dynamically to accomplish this. Another class "B" will inherit "A" and find the maximum and minimum number from the 10 numbers as there in class "A". The new class "C" derived from class "B" will display the computed result of class "A". <span style="color:red">mark 10 ASTU 2024</span></p>
+
+<p>2. (a) Which of the following is not true for constructor?<br>(a) same name as class<br>(b) doesn't have any return type<br>(c) use to allocate resource to dynamic data<br>(d) constructor is used to be virtual <span style="color:red">mark 1 ASTU 2023</span></p>
+
+<p>2. (b) A, B and C are classes then following statement states <code>A::B::C obX;</code><br>(a) obX is object of class A<br>(b) obX is object of B<br>(c) A, B and C is nested class<br>(d) A, B and C classes shows multiple inheritance <span style="color:red">mark 1 ASTU 2023</span></p>
+
+<p>2. (c) What are different types of inheritances? Briefly explain them. <span style="color:red">mark 7 ASTU 2023</span></p>
+
+<p>2. (d) Demonstrate the concept of dynamic polymorphism. <span style="color:red">mark 5 ASTU 2023</span></p>
+
+<p>2. (e) What is friend class and virtual class? <span style="color:red">mark 3 ASTU 2023</span></p>
+
+<p>3. (a) Which of the following feature is also known as run-time binding or late binding?<br>(a) Dynamic typing<br>(b) Dynamic loading<br>(c) Dynamic binding<br>(d) Data hiding <span style="color:red">mark 1 ASTU 2021</span></p>
+
+<p>3. (b) What is an interface? Differentiate between class and interface with suitable examples written in C++. <span style="color:red">mark 8 ASTU 2021</span></p>
+
+<p>3. (c) Write a program in C++ to demonstrate the use of abstract classes. <span style="color:red">mark 7 ASTU 2021</span></p>
+
+<p>3. (d) Write short notes on (any three):<br>(i) Access specifiers<br>(ii) Multiple Inheritance<br>(iii) Abstract data type (ADT)<br>(iv) Virtual function <span style="color:red">mark 9 ASTU 2021</span></p>
+
+<p>4. (a) In C++, when the inheritance is public, the protected methods in base class are ______ the derived class.<br>(a) Inaccessible<br>(b) Private<br>(c) Protected<br>(d) Public <span style="color:red">mark 1 ASTU 2019</span></p>
+
+<p>4. (b) Abstract functions must be defined in all the derived classes. <span style="color:red">mark 1 ASTU 2019</span></p>
+
+<p>4. (c) State the difference between overloading and overriding. <span style="color:red">mark 2 ASTU 2019</span></p>
+
+<p>4. (d) What is an abstract class? How pure virtual function differs from virtual function? <span style="color:red">mark 4 ASTU 2019</span></p>
+
+<p>4. (e) Explain with diagrams the different types of inheritance. <span style="color:red">mark 3 ASTU 2019</span></p>
+<h2>Module 4</h2>
+<p>1. (a) Explain the difference between private and protected members in class with a suitable example. <span style="color:red">mark 6 ASTU 2025</span></p>
+
+<p>1. (b) What do you mean by a static data member of a class? Explain the characteristics of static data members. <span style="color:red">mark 6 ASTU 2025</span></p>
+
+<p>1. (c) Design class "STUDENT" having the following data members "Roll", "Name", "Sem". Write different member functions for reading the details of 10 students and to display the details of the students. <span style="color:red">mark 8 ASTU 2025</span></p>
+
+<p>1. (d) How is code reuse achieved through the mechanism of inheritance? <span style="color:red">mark 2 ASTU 2025</span></p>
+
+<p>2. (a) A class may have:<br>(1) one constructor and one destructor<br>(2) one destructor and many constructors<br>(a) Only (1) is correct<br>(b) Only (2) is correct<br>(c) Both (1) and (2) are correct<br>(d) Both (1) and (2) are incorrect <span style="color:red">mark 1 ASTU 2024</span></p>
+
+<p>2. (b) Private data member can be accessed by:<br>(a) public and private member of a class<br>(b) only public methods<br>(c) only private method<br>(d) can not be accessed <span style="color:red">mark 1 ASTU 2024</span></p>
+
+<p>2. (c) Differentiate Class and Object. Design a class to calculate the marks of three subjects of a student. The class must have the following data members and methods.<br><code>rollNo, Name, sub1, sub2, sub3, read(), calculate() and show()</code> <span style="color:red">mark 10 ASTU 2024</span></p>
+
+<p>2. (d) Create a class "A" to read 10 numbers of "float" data, then find the average of it. Allocate memory dynamically to accomplish this. Another class "B" will inherit "A" and find the maximum and minimum number from the 10 numbers as there in class "A". The new class "C" derived from class "B" will display the computed result of class "A". <span style="color:red">mark 10 ASTU 2024</span></p>
+
+<p>3. (a) The statement with error in the following program is:<br><code>Class A<br>{ int x;<br>Protected: int y;<br>Public: int z;<br>};<br>Class B : Protected A<br>{ public: void fB()<br>{ x=10; y=20; z=30; } };</code><br>(a) <code>x=10</code><br>(b) <code>y=20</code><br>(c) <code>z=30</code><br>(d) All are erroneous statements <span style="color:red">mark 1 ASTU 2023</span></p>
+
+<p>3. (b) The statement with error in the following program is:<br><code>Class A<br>{ public: int x; };<br>Class B : Public A<br>{ public: int y; };<br>void main()<br>{ A *ptr;<br>B obj;<br>ptr = &amp;obj;<br>ptr-&gt;x = 80;<br>ptr-&gt;y = 40;<br>}</code> <span style="color:red">mark 1 ASTU 2023</span></p>
+
+<p>3. (c) A car manufacturing company has four units, first one is to construct the body of the cars, second one is to fit components of the car in the body given by the first unit, the third unit will test the car as received from second unit and will give tested OK and not OK as result. And the fourth unit will color the cars if tested OK is marked by the third unit. Use OOPs methodologies to accomplish this. <span style="color:red">mark 10 ASTU 2023</span></p>
+
+<p>3. (d) What are different types of inheritances? Briefly explain them. <span style="color:red">mark 7 ASTU 2023</span></p>
+
+<p>4. (a) Which of the following is an abstract data type?<br>(a) Class<br>(b) Int<br>(c) String<br>(d) Double <span style="color:red">mark 1 ASTU 2021</span></p>
+
+<p>4. (b) What is default access specifier for data members or member functions declared within a class without any specifier, in C++?<br>(a) Private<br>(b) Protected<br>(c) Public<br>(d) Depends on Compiler <span style="color:red">mark 1 ASTU 2021</span></p>
+
+<p>4. (c) Which of the following is true?<br>(a) All objects of a class share all data members of class<br>(b) Objects of a class do not share non-static members. Every object has its own copy<br>(c) Objects of a class do not share codes of non-static<br>(d) None of these <span style="color:red">mark 1 ASTU 2021</span></p>
+
+<p>4. (d) Define a class named ‘Bank Account’ to represent following members:<br>Data members: Account Number, Name of Depositor, Account Type, Balance Amount.<br>Member functions: Initialize members, Deposit Amount, Withdraw Amount, Display Balance.<br>Write a C++ program to test the Bank Account class for 5 customers. <span style="color:red">mark 8 ASTU 2021</span></p>
+
+<p>4. (e) Write short notes on (any three):<br>(i) Access specifiers<br>(ii) Multiple Inheritance<br>(iii) Abstract data type (ADT)<br>(iv) Virtual function <span style="color:red">mark 9 ASTU 2021</span></p>
+
+<p>5. (a) In C++, when the inheritance is public, the protected methods in base class are ______ the derived class.<br>(a) Inaccessible<br>(b) Private<br>(c) Protected<br>(d) Public <span style="color:red">mark 1 ASTU 2019</span></p>
+
+<p>5. (b) Can a class be declared/defined inside another class in C++?<br>(a) Yes<br>(b) No <span style="color:red">mark 1 ASTU 2019</span></p>
+
+<p>5. (c) Explain the difference between private and protected member in class with a suitable example. <span style="color:red">mark 6 ASTU 2019</span></p>
+
+<p>5. (d) Explain with diagrams the different types of inheritance. <span style="color:red">mark 3 ASTU 2019</span></p>
+<h2>Module 5</h2>
+<p>1. (a) In C++ or Java, a method that is defined in a superclass but is overridden in a subclass to provide a specific implementation is an example of which OOP feature?<br>(i) Encapsulation.<br>(ii) Inheritance.<br>(iii) Method Overloading.<br>(iv) Polymorphism. <span style="color:red">mark 1 ASTU 2025</span></p>
+
+<p>1. (b) A 'try-catch-finally' block is a fundamental construct used in both Java and C++ for which of the following?<br>(i) Iterating over collections.<br>(ii) Implementing polymorphism.<br>(iii) Handling runtime errors/exceptions.<br>(iv) Defining an abstract class. <span style="color:red">mark 1 ASTU 2025</span></p>
+
+<p>1. (c) In C++ or Java, which OOP feature allows you to define a set of methods that a class must implement, without providing any implementation details?<br>(i) An Abstract Class.<br>(ii) Inheritance.<br>(iii) An Interface.<br>(iv) A Final Class. <span style="color:red">mark 1 ASTU 2025</span></p>
+
+<p>1. (d) In Java, if a subclass defines a method with the exact same signature (name and parameter list) as a method in its superclass, what OOP concept is being utilized?<br>(i) Method Overloading<br>(ii) Method Overriding<br>(iii) Data Encapsulation<br>(iv) Cloning <span style="color:red">mark 1 ASTU 2025</span></p>
+
+<p>2. (a) What is an exception? How is it handled in C++? <span style="color:red">mark 7 ASTU 2025</span></p>
+
+<p>3. (a) What is an interface? Differentiate between class and interface with suitable examples written in C++. <span style="color:red">mark 8 ASTU 2021</span></p>
+
+<p>3. (b) What is an exception? Illustrate how exceptions are handled in C++. <span style="color:red">mark 7 ASTU 2021</span></p>
+
+<p>4. (a) How can we use multiple catch functions inside a program? Explain with a suitable C++ program. <span style="color:red">mark 5 ASTU 2019</span></p>
+
+<p>4. (b) Explain why exception handling is important in OOP. <span style="color:red">mark 4 ASTU 2019</span></p>
+
+<p>4. (c) When do we use multi-catch handlers? Explain with an example. <span style="color:red">mark 6 ASTU 2019</span></p>
+<h2>Unknown Module</h2>
+<p>Explain the concept of a Build System. Describe the build process in C++ and Java. <span style="color:red">mark 6 ASTU 2025</span></p>
+
+<p>Describe the components and notations used in a class diagram. <span style="color:red">mark 6 ASTU 2025</span></p>
+
+<p>What is a class hierarchy for handling streams? Show briefly about it. Write with examples about five manipulators. <span style="color:red">mark 10 ASTU 2024</span></p>
+
+<p>What is generic programming? Write a program in C++ to multiply two numbers using class template. <span style="color:red">mark 10 ASTU 2024</span></p>
+
+<p>Write brief notes on the following (any two):<br>(a) Code reusability<br>(b) Dynamic array<br>(c) Command Design Pattern<br>(d) Iterator Design Pattern <span style="color:red">mark 10 ASTU 2024</span></p>
+
+<p>Explain the following statements for a class XYZ.<br>XYZ xx;<br>XYZ yy = xx;<br>XYZ xy(xx);<br>XYZ *p = new XYZ(xx);<br>XYZ zz = (XYZ) "test"; <span style="color:red">mark 5 ASTU 2023</span></p>
+
+<p>A car manufacturing company has four units, first one is to construct the body of the cars, second one is to fit components of the car in the body given by the first unit, the third unit will test the car as received from second unit and will give tested ok and not ok as result. And the fourth unit will color the cars if tested ok is marked by the third unit. Use OOPs methodology to accomplish this. <span style="color:red">mark 10 ASTU 2023</span></p>
+
+<p>Write a program using C++ to implement Stack operations (insert and delete) for integer data, and float data. Use Generic class to demonstrate the stack. <span style="color:red">mark 8 ASTU 2023</span></p>
+
+<p>Why design patterns are important? Demonstrate MVC pattern using class diagrams. <span style="color:red">mark 7 ASTU 2023</span></p>
+
+<p>What are the different stream classes? Briefly explain File stream class. <span style="color:red">mark 8 ASTU 2023</span></p>
+
+<p>What is used to read from the console in C++? <span style="color:red">mark 1 ASTU 2021</span></p>
+
+<p>What is a stream? Describe briefly the features of I/O system supported by C++. <span style="color:red">mark 7 ASTU 2021</span></p>
+
+<p>What do you mean by the term generic programming? <span style="color:red">mark 2 ASTU 2021</span></p>
+
+<p>Write a program in C++ to add two numbers using class template. <span style="color:red">mark 6 ASTU 2021</span></p>
+
+<p>What is a design pattern? Explain about the different types of design patterns used in software design. <span style="color:red">mark 8 ASTU 2021</span></p>
+
+<p>Write a program using Template Class to define a class stack and implement the method to push, pop and display the element from the stack. <span style="color:red">mark 9 ASTU 2019</span></p>
+
+<p>What are stream classes? Show the hierarchy of the stream classes with a diagram. <span style="color:red">mark 5 ASTU 2019</span></p>
+
+<p>State the advantages and disadvantages of Model View Controller. <span style="color:red">mark 5 ASTU 2019</span></p>
+
+
+
+    
+</body>
+</html>
